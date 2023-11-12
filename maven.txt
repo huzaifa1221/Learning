@@ -1,0 +1,5 @@
+---- > in online book store application on jenkins I configured the settoings file and did not add the <distributionManagement> on pom.xml 
+  still it fetches dependencies form the url :
+    Downloading from central: https://ibt.jfrog.io/artifactory/ibt-libs-release/org/apache/maven/plugins/maven-war-plugin/3.2.1/maven-war-plugin-3.2.1.pom
+
+HOW DOES IT KNOW ABOUT IBT.JFROG WHEN I HAVNT MENTIONED IT ANYWHERE ???
