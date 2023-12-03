@@ -1,0 +1,9 @@
+1. create  TWO ec2 instances in AWS
+2. create node in jenkins localhost and configure it against both ec2 AWS
+3. make changes in your jenkins job so that it runs on ec2
+      a.---> do due diligence to figure out required softwares and install them ec2 machine
+
+
+Target :
+  successfully running a job end to end on ec2
+  create a proper documentation mentioning step by step guide of the process that you have followed to achieve the goal
