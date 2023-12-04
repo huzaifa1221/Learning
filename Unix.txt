@@ -12,3 +12,6 @@ view hidden file--->
 
 command to install via link ---->
     wget <link>
+
+Untar a file -->
+    tar -xvf <filename>
