@@ -15,3 +15,17 @@ command to install via link ---->
 
 Untar a file -->
     tar -xvf <filename>
+
+
+Vi editor commands ------>
+        $ vi <filename> — Open or edit a file.
+        i — Switch to Insert mode.
+        Esc — Switch to Command mode.
+        :w — Save and continue editing.
+        :wq or ZZ — Save and quit/exit vi.
+        :q! — Quit vi and do not save changes.
+
+to print environment variables -->
+    printenv --> to print all
+    echo ${name} --> to print specific
+
