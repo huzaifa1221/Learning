@@ -1,2 +1,5 @@
 environment variables stored in unix ?
     /etc/environment
+
+to become root user ?
+    sudo -i
