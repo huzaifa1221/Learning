@@ -9,3 +9,6 @@ switch from root user to USER --->
 
 view hidden file--->
     ls -ltrah
+
+command to install via link ---->
+    wget <link>
