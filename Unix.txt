@@ -1,5 +1,7 @@
-environment variables stored in unix--->
+System environment variables stored in unix--->
     /etc/environment
+    /etc/profile --> for setting up your env variables.
+    
 
 to become root user--->
     sudo -i
