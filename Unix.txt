@@ -28,5 +28,5 @@ Vi editor commands ------>
 to print environment variables -->
     printenv --> to print all
     echo ${name} --> to print specific
-    source /etc/environment ---> to load environment variables.
+    source /etc/profile ---> to load environment variables.
 
