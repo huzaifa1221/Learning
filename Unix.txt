@@ -20,15 +20,15 @@ Untar a file -->
 
 
 Vi editor commands ------>
-        $ vi <filename> — Open or edit a file.
-        i — Switch to Insert mode.
-        Esc — Switch to Command mode.
-        :w — Save and continue editing.
-        :wq or ZZ — Save and quit/exit vi.
-        :q! — Quit vi and do not save changes.
+    $ vi <filename> — Open or edit a file.
+    i — Switch to Insert mode.
+    Esc — Switch to Command mode.
+    :w — Save and continue editing.
+    :wq or ZZ — Save and quit/exit vi.
+    :q! — Quit vi and do not save changes.
 
 to print environment variables -->
+    sudo vi /etc/profile ---> to write environmetn variables.
+    source /etc/profile ---> to load environment variables.
     printenv --> to print all
     echo ${name} --> to print specific
-    source /etc/profile ---> to load environment variables.
-
