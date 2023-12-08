@@ -1,3 +1,12 @@
 6/12/2023 :
     installing and configuring softwares in ec2 server (ubuntu) --->
-      
+        1. install via tar/zip file using sudo wget <link> command
+        2. once installed extract files 
+        3. setup environment variable in /etc/profile.
+        4. run source /etc/profile to load environment variables.
+        
+    configuring agent on Jenkins : -->
+        1. setup credentials with key and username of your server.
+        2. setup tools.
+        3. now configure your node and add tools.
+
