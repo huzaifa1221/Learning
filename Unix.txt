@@ -2,24 +2,15 @@ System environment variables stored in unix--->
     /etc/environment
     /etc/profile --> for setting up your env variables.
     
+sudo -i  / sudo su - --->to become root user
 
-to become root user--->
-    sudo -i  
-    sudo su -
+exit / sudo su -<username> --->switch from root user to USER
 
-switch from root user to USER --->
-    exit
-    sudo su -<username>
+ls -ltrah --->view hidden file
 
-view hidden file--->
-    ls -ltrah
+wget <link> ---->command to install via link
 
-command to install via link ---->
-    wget <link>
-
-Untar a file -->
-    tar -xvf <filename>
-
+tar -xvf <filename> -->Untar a file
 
 Vi editor commands ------>
     $ vi <filename> — Open or edit a file.
@@ -34,3 +25,15 @@ to print environment variables -->
     source /etc/profile ---> to load environment variables.
     printenv --> to print all
     echo ${name} --> to print specific
+
+grep --> to search a word
+
+cat --> to view file content
+
+ln --> to create a shortcut 
+
+chmod --> to change permission 421=7 
+    first column - for users
+    second columnn - for group
+    third column - for everyone else
+
