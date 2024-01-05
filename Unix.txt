@@ -37,3 +37,9 @@ chmod --> to change permission 421=7
     second columnn - for group
     third column - for everyone else
 
+free --> to check memory usage.
+    free -m --> to view in MB.
+    free -g --> to view in GB.
+
+df -h --> to chech hard disk storage and get the data in human readable form.
+
