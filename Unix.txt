@@ -4,9 +4,11 @@ System environment variables stored in unix--->
     
 
 to become root user--->
-    sudo -i
+    sudo -i  
+    sudo su -
 
 switch from root user to USER --->
+    exit
     sudo su -<username>
 
 view hidden file--->
