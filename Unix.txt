@@ -7,7 +7,7 @@ to become root user--->
     sudo -i
 
 switch from root user to USER --->
-    sudo su <username>
+    sudo su -<username>
 
 view hidden file--->
     ls -ltrah
