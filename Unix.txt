@@ -30,7 +30,7 @@ grep --> to search a word
 
 cat --> to view file content
 
-ln --> to create a shortcut 
+ln -s <file path> <variable> --> to create a shortcut (soft link)
 
 chmod --> to change permission 421=7 
     first column - for users
