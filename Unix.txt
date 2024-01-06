@@ -25,6 +25,7 @@ to print environment variables -->
     source /etc/profile ---> to load environment variables.
     printenv --> to print all
     echo ${name} --> to print specific
+    echo --> it is like a print statement in Linux. 
 
 grep --> to search a word
 
@@ -44,4 +45,6 @@ free --> to check memory usage.
 df -h --> to chech hard disk storage and get the data in human readable form.
 
 ls -ltr | grep -i <search> --> filter out the list and also ignoring cases.
+
+
 
