@@ -43,3 +43,5 @@ free --> to check memory usage.
 
 df -h --> to chech hard disk storage and get the data in human readable form.
 
+ls -ltr | grep -i <search> --> filter out the list and also ignoring cases.
+
