@@ -17,6 +17,8 @@ docker run -d <image name> : to run an image in detach mode.
 docker run -p <port>:<container port> -- to configure a port to a container.
 docker run -v <host path>:<container path> -- to configu
 docker run --name <container name> : to provide container name
+docker run --cpus=.5 <image name> -> to allocate specific cpu usage.
+docker run --memory=100m <image name> -> to allocate specific hard disk usage.
 docker exec -it <container id> <command> : to enter into a running container and execute a command.
 docker start <container id> : to start a container.
 docker stop <container id> :  to stop a container.
@@ -25,8 +27,6 @@ docker -H=<remote docker engine>:<port> run <image name> --> to run a container 
 
 			Cgroups ---->
 
-docker run --cpus=.5 <image name> -> to allocate specific cpu usage.
-docker run --memory=100m <image name> -> to allocate specific hard disk usage.
 
 
 
