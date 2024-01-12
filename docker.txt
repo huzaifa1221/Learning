@@ -27,8 +27,9 @@ docker -H=<remote docker engine>:<port> run <image name> --> to run a container 
 
 	DOCKER FILE -->
 
-docker build . --> to build an image
-docker build -t <image name> --> to build an image and give image name
+docker build . --> to build an image (name=none, file it is going to look for="Dockerfile", and in the current directory).
+docker build . -t <image name> --> to build an image and give image name (since no f tag it is going to look for a Dockerfile).
+docker build . -f <filename> -t <image name> --> to build an image and give image name (with f tag it is going to look for a filewith specified name.)
 	
 
 
