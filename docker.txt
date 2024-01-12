@@ -25,11 +25,6 @@ docker stop <container id> :  to stop a container.
 
 docker -H=<remote docker engine>:<port> run <image name> --> to run a container on a remote host.
 
-			Cgroups ---->
-
-
-
-
 	DOCKER FILE -->
 
 docker build . --> to build an image
