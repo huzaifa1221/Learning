@@ -7,3 +7,10 @@
 Target :
   successfully running a job end to end on ec2
   create a proper documentation mentioning step by step guide of the process that you have followed to achieve the goal
+
+
+
+QUESTONS :
+
+1. cant find the location /var/lib/docker where all the docker default files are stored.
+      checked using the docker info command.
