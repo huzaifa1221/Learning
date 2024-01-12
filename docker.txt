@@ -21,6 +21,15 @@ docker exec -it <container id> <command> : to enter into a running container and
 docker start <container id> : to start a container.
 docker stop <container id> :  to stop a container.
 
+docker -H=<remote docker engine>:<port> run <image name> --> to run a container on a remote host.
+
+			Cgroups ---->
+
+docker run --cpus=.5 <image name> -> to allocate specific cpu usage.
+docker run --memory=100m <image name> -> to allocate specific hard disk usage.
+
+
+
 	DOCKER FILE -->
 
 docker build . --> to build an image
