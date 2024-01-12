@@ -43,6 +43,7 @@ free --> to check memory usage.
     free -g --> to view in GB.
 
 df -h --> to chech hard disk storage and get the data in human readable form.
+du -sh * --> it gives the size of the file/directory in human readable form and * refers to all the files in that location.
 
 ls -ltr | grep -i <search> --> filter out the list and also ignoring cases.
 
