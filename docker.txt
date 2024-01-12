@@ -11,6 +11,7 @@ docker inspect <container id> : to insect container configuration.
 docker logs <container id> : to view container logs.
 docker history <image name> : to view image logs.
 docker system df --> to know the disk consumed.
+docker system df -v --> to know morw about disk consumption.
 	
 docker run <image name>: to run an image.
 docker run -it <image name> : to run an image in interactive mode and open terminal.
