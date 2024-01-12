@@ -10,6 +10,7 @@ docker rmi <image name> : to remove an image.
 docker inspect <container id> : to insect container configuration.
 docker logs <container id> : to view container logs.
 docker history <image name> : to view image logs.
+docker system df --> to know the disk consumed.
 	
 docker run <image name>: to run an image.
 docker run -it <image name> : to run an image in interactive mode and open terminal.
@@ -31,7 +32,6 @@ docker build . --> to build an image (name=none, file it is going to look for="D
 docker build . -t <image name> --> to build an image and give image name (since no f tag it is going to look for a Dockerfile).
 docker build . -f <filename> -t <image name> --> to build an image and give image name (with f tag it is going to look for a filewith specified name.)
 	
-
 
 
 
