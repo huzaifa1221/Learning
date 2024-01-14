@@ -17,7 +17,7 @@ docker run <image name>: to run an image.
 docker run -it <image name> : to run an image in interactive mode and open terminal.
 docker run -d <image name> : to run an image in detach mode.
 docker run -p <port>:<container port> -- to configure a port to a container.
-docker run -v <host path>:<container path> -- to configu
+docker run -v <host path>:<container path> -- to configure volume or bind mounting.
 docker run --name <container name> : to provide container name
 docker run --cpus=.5 <image name> -> to allocate specific cpu usage.
 docker run --memory=100m <image name> -> to allocate specific hard disk usage.
