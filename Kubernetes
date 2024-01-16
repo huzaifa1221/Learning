@@ -1,1 +1,5 @@
+kubectl run <name of the pod> --image<image to pull> -- this will create a pod and add the container in it.
 
+To access a container in a pod that includes multiple containers:
+Run the following command using the pod name of the container that you want to access: kubectl describe pods pod_name. ...
+To access one of the containers in the pod, enter the following command: kubectl exec -it pod_name -c container_name bash.
