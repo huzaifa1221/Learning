@@ -1,6 +1,6 @@
 kubectl run <name of the pod> -->image<image to pull> -- this will create a pod and add the container in it.
-kubectl get pod --> to list all the pods.
-kubectl descride pod <pods name> --> to get info about the specific pod.
+kubectl get <kind> --> to list all the kinds present.
+kubectl descride <kind> <resource name> --> to get info about the specific pod.
 kubectl create -f <filename> --> to create a pod
 kkubectl delete <kind> <name> --> to delete.
 
