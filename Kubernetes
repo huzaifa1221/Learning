@@ -1,7 +1,8 @@
 kubectl run <name of the pod> -->image<image to pull> -- this will create a pod and add the container in it.
 kubectl get <kind> --> to list all the kinds present.
 kubectl descride <kind> <resource name> --> to get info about the specific pod.
-kubectl create -f <filename> --> to create a pod
+  kubectl create -f <filename> --> to create a pod
+  kubectl replace -f <filename> --> to replace the replica set/Pod.
 kkubectl delete <kind> <name> --> to delete.
   kubectl scale --replicas=6 -f <file name> 
   kubectl scale --replicas=6 <replicaset> <name> --> To change the number of replicas. 
