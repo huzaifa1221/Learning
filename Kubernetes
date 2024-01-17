@@ -7,6 +7,7 @@ kubectl descride <kind> <resource name> --> to get info about the specific pod.
 kkubectl delete <kind> <name> --> to delete.
   kubectl scale --replicas=6 -f <file name> 
   kubectl scale --replicas=6 <replicaset> <name> --> To change the number of replicas. ( Does not replace the yaml file ).
+kubectl get nodes -o wide --> to know the information about the nodes.
 kubectl logs <pod name> <container name> --> to know the logs of the container.
 
 
