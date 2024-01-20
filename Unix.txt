@@ -47,5 +47,9 @@ du -sh * --> it gives the size of the file/directory in human readable form and 
 
 ls -ltr | grep -i <search> --> filter out the list and also ignoring cases.
 
+echo -n 'text' | base64 --> to encode value.
+echo -n 'text' | base64 --decode --> to decode value.
+
+
 
 
